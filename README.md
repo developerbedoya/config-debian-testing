@@ -40,6 +40,12 @@ vm.dirty_background_bytes = 16777216
 vm.dirty_bytes = 50331648
 ```
 
+* Ativar configuração imediatamente:
+```
+echo $((16*1024*1024)) > /proc/sys/vm/dirty_background_bytes
+echo $((48*1024*1024)) > /proc/sys/vm/dirty_bytes
+```
+
 # Mudar swappiness
 ```
 sudo sysctl vm.swappiness=10
