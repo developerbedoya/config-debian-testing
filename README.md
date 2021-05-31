@@ -4,7 +4,7 @@
 
 # Pacotes debian
 ```
-sudo apt install vim-gtk3 mc gdebi synaptic pavucontrol git htop iotop cups qtbase5-dev qt5-quick-demos cmake qtdeclarative5-dev qtcreator gimp
+sudo apt install vim-gtk3 mc gdebi synaptic pavucontrol git htop iotop cups qtbase5-dev qt5-quick-demos cmake qtdeclarative5-dev qtcreator gimp ghex
 ```
 
 # Instalar pacotes baixados
