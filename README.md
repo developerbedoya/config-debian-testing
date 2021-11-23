@@ -1,10 +1,13 @@
+# Tasksel
+* Selecionar área de trabalho Xfce
+
 # Configuração inicial
 * Colocar o valor `nouveau.modeset=0` no parâmetro `GRUB_CMDLINE_LINUX` arquivo `/etc/default/grub`
 * Executar `sudo update-grub`
 
 # Pacotes debian
 ```
-sudo apt install vim-gtk3 mc gdebi synaptic pavucontrol git htop iotop cups qtbase5-dev qt5-quick-demos cmake qtdeclarative5-dev qtcreator gimp ghex
+sudo apt install vim-gtk3 mc gdebi synaptic pavucontrol git htop iotop cups qtbase5-dev qt5-quick-demos cmake qtdeclarative5-dev qtcreator gimp ghex i3
 ```
 
 # Instalar pacotes baixados
